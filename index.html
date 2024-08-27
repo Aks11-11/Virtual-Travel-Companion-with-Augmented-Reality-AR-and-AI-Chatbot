@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AR Travel Companion</title>
+    <script src="https://unpkg.com/aframe/dist/aframe.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a-scene>
+        <a-marker preset="hiro">
+            <a-box position='0 0.5 0' rotation='0 45 0' color='#4CC3D9'></a-box>
+            <a-text value='Landmark Information' align='center'></a-text>
+        </a-marker>
+        <a-entity camera></a-entity>
+    </a-scene>
+</body>
+</html>
