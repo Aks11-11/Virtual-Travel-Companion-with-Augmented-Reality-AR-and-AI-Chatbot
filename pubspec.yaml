@@ -1,0 +1,6 @@
+name: virtual_travel_companion
+description: A virtual travel companion app
+dependencies:
+  flutter:
+    sdk: flutter
+  # Add other dependencies here
