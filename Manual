@@ -1,0 +1,59 @@
+# Virtual Travel Companion Manual
+
+## Overview
+The Virtual Travel Companion application combines an AI chatbot and Augmented Reality (AR) to enhance travel experiences.
+
+## Getting Started
+
+### Backend
+1. Navigate to the `backend` directory.
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the server:
+    ```bash
+    python app.py
+    ```
+
+### Chatbot
+1. Navigate to the `chatbot` directory.
+2. Install Rasa and other dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Train the chatbot:
+    ```bash
+    python chatbot.py
+    ```
+4. Run the chatbot:
+    ```bash
+    rasa run
+    ```
+
+### Augmented Reality
+1. Navigate to the `ar/ar_app` directory.
+2. Open `index.html` in a web browser to test the AR functionalities.
+
+### Mobile App
+1. Navigate to the `mobile_app` directory.
+2. Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+3. Run the app:
+    ```bash
+    flutter run
+    ```
+
+## Additional Features
+- **Offline Mode**: Ensure that offline travel guides are pre-downloaded in the app settings.
+- **Multi-Language Support**: Set language preferences in the app settings.
+- **User Customization**: Customize the chatbot personality through the settings menu in the mobile app.
+- **Social Sharing**: Share AR experiences directly from the mobile app using the share button.
+
+## Troubleshooting
+- Ensure all services (backend, chatbot, mobile app) are running on the correct ports.
+- Verify API keys and permissions for external services are configured correctly.
+
+For more detailed guidance, refer to the respective directories and their README files.
